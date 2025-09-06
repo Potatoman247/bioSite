@@ -1,0 +1,82 @@
+#landing {
+    background-color: #D36AEB;
+}
+#landing h1 {
+    text-align: center;
+    color: #EBB8DD;
+    text-shadow:
+                -2px -2px 0 #000,
+                2px -2px 0 #000,
+                -2px 2px 0 #000,
+                2px 2px 0 #000,
+                -3px 0px 0 #000,
+                3px 0px 0 #000,
+                0px -3px 0 #000,
+                0px 3px 0 #000;
+}
+#landing #image {
+    margin-right: 10%;
+    width: 40%;
+    float: right;
+}
+#landing #nextpage {
+    margin-left: 20%;
+    margin-top: 15%;
+    text-align: center;
+    width: 5%;
+    border-style: solid;
+    color: aliceblue;
+    background-color: #A96AEB;
+    border-color: #000;
+    padding: 1.5%
+}
+#landing #last {
+    margin-top: 60%;
+    width: 100%;
+    float: right;
+    margin-bottom: 20px;
+}
+#hobbies {
+    background-color: #C8A3E4;
+}
+#hobbies h1 {
+    text-align: center;
+    color: #EBB8DD;
+    text-shadow:
+                -2px -2px 0 #000,
+                2px -2px 0 #000,
+                -2px 2px 0 #000,
+                2px 2px 0 #000,
+                -3px 0px 0 #000,
+                3px 0px 0 #000,
+                0px -3px 0 #000,
+                0px 3px 0 #000;
+}
+
+#about {
+    background-color: #C8A3E4;
+}
+#about h1 {
+    text-align: center;
+    color: #EBB8DD;
+    text-shadow:
+                -2px -2px 0 #000,
+                2px -2px 0 #000,
+                -2px 2px 0 #000,
+                2px 2px 0 #000,
+                -3px 0px 0 #000,
+                3px 0px 0 #000,
+                0px -3px 0 #000,
+                0px 3px 0 #000;
+}
+
+#Hobbies {
+    display: grid;
+    margin-top: 10%;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#About {
+    display: grid;
+    margin-top: 10%;
+    grid-template-columns: 1fr 1fr 1fr;
+}
