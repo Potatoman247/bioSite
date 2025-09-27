@@ -1,5 +1,28 @@
-#landing {
+#navbar {
+    overflow: hidden;
     background-color: #D36AEB;
+    border-bottom: 15px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+#navbar a:hover {
+    background-color: burlywood;
+    color: brown;
+}
+
+#landing {
+    background-color: #C8A3E4;
 }
 #landing h1 {
     text-align: center;
@@ -15,26 +38,63 @@
                 0px 3px 0 #000;
 }
 #landing #image {
+    grid-column: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
     margin-right: 10%;
     width: 40%;
     float: right;
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    overflow: hidden;
 }
-#landing #nextpage {
+#landing #nextabout {
+    grid-row: 1;
+    grid-column: 2 / span 2;
     margin-left: 20%;
     margin-top: 15%;
     text-align: center;
     width: 5%;
     border-style: solid;
+    border-radius: 15px;
     color: aliceblue;
     background-color: #A96AEB;
     border-color: #000;
     padding: 1.5%
 }
-#landing #last {
-    margin-top: 60%;
-    width: 100%;
-    float: right;
-    margin-bottom: 20px;
+#landing #nexthobbies {
+    grid-row: 2;
+    grid-column: 2 / span 2;
+    margin-left: 20%;
+    margin-top: 15%;
+    text-align: center;
+    width: 5%;
+    border-style: solid;
+    border-radius: 15px;
+    color: aliceblue;
+    background-color: #A96AEB;
+    border-color: #000;
+    padding: 1.5%
+}
+#hobbies figcaption {
+    padding: 1.5%;
+    border-style: solid;
+    border-radius: 15px;
+    background-color: #A96AEB;
+    border-color: #000;
+}
+
+#last {
+    position: fixed;
+    bottom: 0;
+    width: 95.2%;
+    padding: .5%;
+    border-style: solid;
+    border-top: 15px solid #000;
+    border-radius: 15px;
+    background-color: #A96AEB;
+    border-color: #000;
 }
 #hobbies {
     background-color: #C8A3E4;
@@ -71,12 +131,22 @@
 }
 
 #Hobbies {
+    margin: 10%;
+    width: 80%;
     display: grid;
-    margin-top: 10%;
     grid-template-columns: 1fr 1fr 1fr;
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
 }
 #About {
+
+    margin: 10%;
+    width: 80%;
     display: grid;
-    margin-top: 10%;
+    margin-top: 5%;
     grid-template-columns: 1fr 1fr 1fr;
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
 }
